@@ -21,7 +21,7 @@ public class AlienOpenAds implements LifecycleObserver, Application.ActivityLife
 
     public static OnShowOpenAppAdmob onShowOpenAppAdmob;
     public static OnLoadOpenAppAdmob onLoadOpenAppAdmob;
-
+    public static boolean LOADADS = false;
     public AlienOpenAds(MyApplication myApplication) {
         ProcessLifecycleOwner.get().getLifecycle().addObserver(this);
     }

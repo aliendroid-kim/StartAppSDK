@@ -58,6 +58,8 @@ public class AliendroidIntertitial {
     public static OnFullScreenContentCallbackAdmob onFullScreenContentCallbackAdmob;
     private static int counter;
 
+    public static boolean SHOW_ALIEN_VIEW = false;
+
     public static void LoadIntertitialUnity(Activity activity, String selectAds, String idIntertitial, String idBackupIntertitial) {
 
     }
